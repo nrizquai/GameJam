@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32C3BDE6-E125-3128-82C1-25D0441455A3}</ProjectGuid>
+    <ProjectGuid>{35223D1A-0ABA-3E00-D682-2F913F0EB5DC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Player\PControl.cs" />
-    <Compile Include="Assets\Player\PlayerController.cs" />
     <Compile Include="Assets\Enemy\Vaticanais.cs" />
+    <Compile Include="Assets\Player\PlayerController.cs" />
+    <Compile Include="Assets\Enemy\tourelle.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

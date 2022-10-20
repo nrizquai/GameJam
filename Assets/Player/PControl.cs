@@ -81,6 +81,5 @@ public class PControl : MonoBehaviour
 
         Vector2 nextpos = player.position + Vector2.right * pos.x + Vector2.up * pos.y;
         player.MovePosition(nextpos);
-        Debug.Log(inputs.movement.LeftStickLR.ReadValue<float>());
     }
 }

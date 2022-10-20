@@ -5,7 +5,7 @@ using UnityEngine;
 public class Vaticanais : MonoBehaviour
 { 
     [SerializeField] private float _speed;
-    private Transform _target;
+    public Transform _target;
     void Awake()
     {
         _target = FindObjectOfType<PControl>().transform;
@@ -13,6 +13,10 @@ public class Vaticanais : MonoBehaviour
     }
 
     void Update()
+    {
+        follow();
+    }
+    public virtual void follow()
     {
         transform.position = Vector3.MoveTowards(transform.position, _target.position, _speed * Time.deltaTime);
     }
